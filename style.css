@@ -1,8 +1,9 @@
 html {
-  background-image: url('https://assets.forefront.ai/images/1708134008344-1f72afc9-5a18-4954-a374-8a56834af484.png');
+  background-image: url('snowy-mountain.png');
   background-size: cover;
   background-attachment: fixed; /* This will prevent the background from scrolling */
 }
+
 
 body {
   margin: 0;
@@ -41,27 +42,45 @@ nav ul li a {
   text-align: center;
   color: #fff;
 }
-
-/* Add this CSS for the projects section */
+/* Updated CSS for the projects section */
 .projects {
   padding: 20px;
   text-align: center;
-  
+  background-color: rgba(128, 0, 128, 0.1); /* Purple background color with transparency */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .project {
-  display: inline-block;
-  width: 15%; /* Adjust the width as needed */
-  margin: 10px;
-  padding: 10px;
+  width: 30%; /* Adjust the width as needed */
+  margin: 15px;
+  padding: 50px;
   background-color: #fff; /* White background for the squares */
-  border-radius: 5px;
+  border-radius: 11px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for depth */
+  transition: transform 0.1s ease; /* Adding a smooth transition effect */
+}
+
+.project:hover {
+  transform: translateY(-5px); /* Adding a slight lift on hover for interactive effect */
 }
 
 .project h3 {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+; /* Adjusting the color of the title for better contrast */
+  font-size: 18px; /* Increasing the font size for better visibility */
 }
 
 .project p {
   font-size: 14px;
+  color: #666; /* Adjusting the color of the description for better contrast */
+}
+
+/* Add this CSS for the project icons */
+.project a img {
+  width: 50px; /* Adjust the width of the icons as needed */
+  height: 50px; /* Adjust the height of the icons as needed */
+  display: block;
+  margin: 10px auto; /* Center the icons within the project box */
 }
