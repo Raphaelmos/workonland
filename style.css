@@ -132,3 +132,44 @@ nav ul li a {
   max-width: 100%;
   height: auto;
 }
+
+.programming-languages {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.text-content {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.text-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 16px;
+  color: #666;
+}
+
+.logos {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.logo-row img {
+  width: 100px; /* Adjust the width of the logos as needed */
+  height: 100px; /* Adjust the height of the logos as needed */
+  margin: 0 10px; /* Adjust the margin between logos as needed */
+}
