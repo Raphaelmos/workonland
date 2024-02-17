@@ -1,5 +1,5 @@
 html {
-  background-image: url('https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif');
+  background-image: url('https://media.giphy.com/media/WUyQbeKHhpaHrrKJu6/giphy.gif');
   background-size: cover;
   background-attachment: fixed; /* This will prevent the background from scrolling */
 }
@@ -115,6 +115,7 @@ nav ul li a {
   align-items: center;
   justify-content: space-around;
   padding: 50px 0;
+  
 }
 
 .about-me-text {
