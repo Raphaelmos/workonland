@@ -1,5 +1,5 @@
 html {
-  background-image: url('https://assets.forefront.ai/images/1708134008344-1f72afc9-5a18-4954-a374-8a56834af484.png');
+  background-image: url('https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif');
   background-size: cover;
   background-attachment: fixed; /* This will prevent the background from scrolling */
 }
@@ -8,7 +8,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: Gill Sans, sans-serif;
 }
 
 header {
@@ -43,10 +43,12 @@ nav ul li a {
   color: #fff;
 }
 /* Updated CSS for the projects section */
+/* Updated CSS for the projects section */
 .projects {
   padding: 20px;
   text-align: center;
-  background-color: rgba(128, 0, 128, 0.1); /* Purple background color with transparency */
+   /* Update the background color to a dark shade of purple */
+  color: #fff; /* Set the text color to white for better contrast */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -55,42 +57,40 @@ nav ul li a {
 .project {
   width: 20%; /* Adjust the width as needed */
   margin: 15px;
-  padding: 50px;
-  background-color: #D3D3D3; /* White background for the squares */
-  border-radius: 11px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for depth */
-  transition: transform 0.1s ease; /* Adding a smooth transition effect */
+  padding: 20px; /* Reduce the padding for a more compact look */
+  background-color: rgba(128, 0, 128, 0.5); /* Purple background color with transparency */
+  border-radius: 10px; /* Adjust the border radius for a softer look */
+  /* Adding a subtle shadow for depth */
+  transition: transform 0.2s ease; /* Adding a smooth transition effect */
   position: relative;
 }
 
 .project::before {
   content: '';
   position: absolute;
-  top: -10px;
-  left: -10px;
-  right: -10px;
-  bottom: -10px;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
   z-index: -1;
-  border-radius: 15px;
-  background: linear-gradient(135deg, #f2f2f2, #ffffff, #e6e6e6); /* Adjust the colors as needed */
+  border-radius: 10px;
+  background: linear-gradient(135deg, #f2f2f2, #00000, #e6e6e6); /* Adjust the colors as needed */
 }
-
 
 .project:hover {
   transform: translateY(-5px); /* Adding a slight lift on hover for interactive effect */
 }
 
-
-
 .project h3 {
-  margin-bottom: 5px;
-  font-size: 20px; /* Adjust the font size of the project titles */
+  margin-bottom: 10px; /* Adjust the margin for better spacing */
+  font-size: 18px; /* Adjust the font size of the project titles */
 }
 
 .project p {
-  font-size: 16px; /* Adjust the font size of the project descriptions */
-  color: #666; /* Adjusting the color of the description for better contrast */
+  font-size: 14px; /* Adjust the font size of the project descriptions */
+  color: #eee; /* Adjusting the color of the description for better contrast */
 }
+
 /* Add this CSS for the project icons */
 .project a img {
   width: 50px; /* Adjust the width of the icons as needed */
