@@ -1,5 +1,5 @@
 html {
-  background-image: url('src/snowy-mountain.png');
+  background-image: url('https://assets.forefront.ai/images/1708134008344-1f72afc9-5a18-4954-a374-8a56834af484.png');
   background-size: cover;
   background-attachment: fixed; /* This will prevent the background from scrolling */
 }
@@ -53,34 +53,81 @@ nav ul li a {
 }
 
 .project {
-  width: 30%; /* Adjust the width as needed */
+  width: 20%; /* Adjust the width as needed */
   margin: 15px;
   padding: 50px;
-  background-color: #fff; /* White background for the squares */
+  background-color: #D3D3D3; /* White background for the squares */
   border-radius: 11px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for depth */
   transition: transform 0.1s ease; /* Adding a smooth transition effect */
+  position: relative;
 }
+
+.project::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  z-index: -1;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #f2f2f2, #ffffff, #e6e6e6); /* Adjust the colors as needed */
+}
+
 
 .project:hover {
   transform: translateY(-5px); /* Adding a slight lift on hover for interactive effect */
 }
 
+
+
 .project h3 {
-  margin-bottom: 10px;
-; /* Adjusting the color of the title for better contrast */
-  font-size: 18px; /* Increasing the font size for better visibility */
+  margin-bottom: 5px;
+  font-size: 20px; /* Adjust the font size of the project titles */
 }
 
 .project p {
-  font-size: 14px;
+  font-size: 16px; /* Adjust the font size of the project descriptions */
   color: #666; /* Adjusting the color of the description for better contrast */
 }
-
 /* Add this CSS for the project icons */
 .project a img {
   width: 50px; /* Adjust the width of the icons as needed */
   height: 50px; /* Adjust the height of the icons as needed */
   display: block;
   margin: 10px auto; /* Center the icons within the project box */
+}
+
+/* Add this CSS for the project images */
+.project img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Add this CSS for the About Me section */
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.about-me-text {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.about-me-gif {
+  flex: 1;
+  text-align: center;
+}
+
+.about-me-gif img {
+  max-width: 100%;
+  height: auto;
 }
