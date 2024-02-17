@@ -1,5 +1,5 @@
 html {
-  background-image: url('snowy-mountain.png');
+  background-image: url('src/snowy-mountain.png');
   background-size: cover;
   background-attachment: fixed; /* This will prevent the background from scrolling */
 }
