@@ -1,5 +1,5 @@
 html {
-  background-image: url('https://media.giphy.com/media/WUyQbeKHhpaHrrKJu6/giphy.gif');
+ /* background-image: url('https://media.giphy.com/media/WUyQbeKHhpaHrrKJu6/giphy.gif'); */
   background-size: cover;
   background-attachment: fixed; /* This will prevent the background from scrolling */
 }
@@ -55,13 +55,13 @@ nav ul li a {
 }
 
 .project {
-  width: 20%; /* Adjust the width as needed */
+  width: 23%; /* Adjust the width as needed */
   margin: 15px;
   padding: 20px; /* Reduce the padding for a more compact look */
-  background-color: rgba(128, 0, 128, 0.5); /* Purple background color with transparency */
+  background-color: #2292A4; /* Purple background color with transparency */
   border-radius: 10px; /* Adjust the border radius for a softer look */
   /* Adding a subtle shadow for depth */
-  transition: transform 0.2s ease; /* Adding a smooth transition effect */
+  transition: transform 0.1s ease; /* Adding a smooth transition effect */
   position: relative;
 }
 
@@ -153,6 +153,7 @@ nav ul li a {
 .text-content p {
   font-size: 16px;
   color: #666;
+  
 }
 
 .logos {
