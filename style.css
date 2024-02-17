@@ -1,67 +1,67 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
-
- background-image: url('snowy-mountain.png');
-body {
-    padding: 0;
-    margin: 0;
-    font-family: Courier New,mono-space;
-    font-size: 14px;
-	color: #FFFFFF;
-    overflow-y: scroll;
+html {
+  background-image: url('https://assets.forefront.ai/images/1708134008344-1f72afc9-5a18-4954-a374-8a56834af484.png');
+  background-size: cover;
+  background-attachment: fixed; /* This will prevent the background from scrolling */
 }
 
-li,
-li,
-a{
+body {
   margin: 0;
   padding: 0;
-  font-family: 'PetrovSans';
+  font-family: Arial, sans-serif;
 }
 
-
-
-li {
-  font-size: 1.1em;
-  font-weight: 100;
-  letter-spacing: 5px;
-  color: blue
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px; /* Adjust the padding as needed */
+  text-align: right;
 }
 
-
-
-header.main-header {
-    padding: 0;
-    margin: 0 auto;
-    width: 100%;
-    height: 60px;
-    background-color: #424242;
-    z-index: -1 !important;
+nav ul {
+  list-style: none;
+  padding: 0;
 }
 
-header.main-header .header-container ul {
-    padding: 0;
-    margin-top: -45px;
-}
-header.main-header .header-container ul li {
-    list-style: none;
-    display: inline-block;
-    position: relative;
-}
-header.main-header .header-container {
-    height: 100%;
-    float: right;
-	
+nav ul li {
+  display: inline;
+  margin: 0 10px;
 }
 
-header.main-header .header-button {
-    padding: 8px;
-    border: 1px solid #ff9200;
-    margin-top: 17px;
-    margin-right: 10px;
-    border-radius: 4px;
-    color: #ff9200;
-    letter-spacing: 1px;
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
 
+/* Add this CSS for the projects section */
+.projects {
+  padding: 20px;
+  text-align: center;
+  
+}
 
+.project {
+  display: inline-block;
+  width: 15%; /* Adjust the width as needed */
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff; /* White background for the squares */
+  border-radius: 5px;
+}
+
+.project h3 {
+  margin-bottom: 5px;
+}
+
+.project p {
+  font-size: 14px;
+}
