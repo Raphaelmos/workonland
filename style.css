@@ -1,5 +1,6 @@
 html {
- /* background-image: url('https://media.giphy.com/media/WUyQbeKHhpaHrrKJu6/giphy.gif'); */
+ /* background-image: url('https://media.giphy.com/media/WUyQbeKHhpaHrrKJu6/giphy.gif'); */ 
+  font-family: Trebuchet MS;
   background-size: cover;
   background-attachment: fixed; /* This will prevent the background from scrolling */
 }
@@ -10,6 +11,7 @@ body {
   padding: 0;
   font-family: Gill Sans, sans-serif;
 }
+
 
 header {
   background-color: #333;
@@ -32,8 +34,14 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
 }
+h1 {
+  color: #2374AB;
+  font-size: 43px;
+  font-weight: 900;
+  text-align: center;
+}
 
-.hero {
+.hero h1 {
   height: 100vh;
   display: flex;
   flex-direction: column;
