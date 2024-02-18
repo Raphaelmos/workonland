@@ -1,5 +1,5 @@
 html {
- /* background-image: url('https://media.giphy.com/media/WUyQbeKHhpaHrrKJu6/giphy.gif'); */ 
+  background-image: url('https://media.giphy.com/media/WUyQbeKHhpaHrrKJu6/giphy.gif'); *
   font-family: Trebuchet MS;
   background-size: cover;
   background-attachment: fixed;
@@ -54,8 +54,7 @@ h1 {
   text-align: center;
   color: #333;
 }
-/* Updated CSS for the projects section */
-/* Updated CSS for the projects section */
+
 .projects {
   padding: 20px;
   text-align: center;
@@ -134,8 +133,11 @@ h1 {
 .about-me-text {
   font-family: 'Open Sans', sans-serif;
   flex: 1;
-  padding: 0 20px;
+  padding: 0 250px;
   color: #333;
+  text-align: center; /* Center-align the paragraph text */
+  margin: 3; /* Set left and right margins to auto for centering */
+  max-width: 600px;
 }
 
 .about-me-text h2 {
