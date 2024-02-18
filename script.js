@@ -1,5 +1,39 @@
-/* Will change */
+const links = document.querySelectorAll('header a');
 
+links.forEach(link => {
+  link.addEventListener('click', smoothScroll);
+});
+
+function smoothScroll(e) {
+  e.preventDefault();
+  const id = this.getAttribute('href');
+  
+  document.querySelector(id).scrollIntoView({
+    behavior: 'smooth'
+  });
+}
+
+function smoothScroll(e) {
+	e.preventDefault();
+  
+	const id = this.getAttribute('href');
+	const header = document.querySelector('header');
+	const offset = header.offsetHeight;
+  
+	document.querySelector(id).scrollIntoView({
+	  behavior: 'smooth',
+	  block: 'start', 
+	  inline: 'nearest',
+	  offsetTop: -offset
+	});
+  }
+  const el = document.querySelector(id);
+  el.scrollTop = el.scrollHeight / 2;
+
+
+
+/* Will change */
+/*
 window.onload = function () {
 
 
@@ -73,3 +107,4 @@ var H = window.innerHeight;
 	//animation loop
 	setInterval(draw, 33);
 };
+*/
