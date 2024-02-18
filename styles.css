@@ -43,6 +43,9 @@ h1 {
   font-weight: 900;
   text-align: center;
   position: relative;
+  text-align: center; /* Center-align the "Hello" h1 text */
+  margin-bottom: 20px; /* Add margin at the bottom of the "Hello" h1 text */
+  margin-left: 20px;
 }
 
 .hero h1 {
@@ -54,6 +57,25 @@ h1 {
   text-align: center;
   color: #333;
 }
+
+.download-button {
+  margin-top: 1000px;
+  padding: 10px 20px; /* Adjust the padding for the button */
+  background-color: #ccc; /* Grey background color */
+  color: #fff; /* Text color */
+  border: none; /* Remove the border */
+  border-radius: 5px; /* Add border radius for a rounded look */
+  font-size: 16px; /* Adjust the font size */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  display: block; /* Change the button to a block element */
+  margin: 0 auto;
+}
+
+.download-button:hover {
+  background-color: #999; /* Darken the background color on hover */
+}
+
 
 .projects {
   padding: 20px;
