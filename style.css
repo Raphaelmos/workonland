@@ -99,10 +99,11 @@ h1 {
 }
 
 .project p {
-  font-size: 14px; /* Adjust the font size of the project descriptions */
+  font-size: 16px; /* Adjust the font size of the project descriptions */
   color: #eee; /* Adjusting the color of the description for better contrast */
+  font-family: 'Roboto', sans-serif; /* Apply a custom font family for the project descriptions */
+  line-height: 1.6; /* Adjust the line height for better readability */
 }
-
 /* Add this CSS for the project icons */
 .project a img {
   width: 50px; /* Adjust the width of the icons as needed */
@@ -131,9 +132,18 @@ h1 {
 }
 
 .about-me-text {
+  font-family: 'Open Sans', sans-serif;
   flex: 1;
   padding: 0 20px;
-  font-family: Poppins;
+  color: #333;
+}
+
+.about-me-text h2 {
+  font-size: 28px; /* Adjust the font size of the heading for "About Me" */
+  margin-bottom: 15px; /* Adjust the margin for better spacing */
+}
+.about-me-text p {
+  font-size: 18px; /* Adjust the font size of the "About Me" text */
 }
 
 .about-me-gif {
