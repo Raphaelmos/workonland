@@ -2,7 +2,9 @@ html {
  /* background-image: url('https://media.giphy.com/media/WUyQbeKHhpaHrrKJu6/giphy.gif'); */ 
   font-family: Trebuchet MS;
   background-size: cover;
-  background-attachment: fixed; /* This will prevent the background from scrolling */
+  background-attachment: fixed;
+  /* This will prevent the background from scrolling */
+  scroll-behavior: smooth;
 }
 
 
@@ -32,6 +34,7 @@ nav ul li {
 
 nav ul li a {
   color: #fff;
+  font-weight: 600;
   text-decoration: none;
 }
 h1 {
@@ -49,7 +52,7 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #fff;
+  color: #333;
 }
 /* Updated CSS for the projects section */
 /* Updated CSS for the projects section */
@@ -130,6 +133,7 @@ h1 {
 .about-me-text {
   flex: 1;
   padding: 0 20px;
+  font-family: Poppins;
 }
 
 .about-me-gif {
@@ -162,7 +166,7 @@ h1 {
 
 .text-content p {
   font-size: 16px;
-  color: #666;
+  color: #333;
   
 }
 
