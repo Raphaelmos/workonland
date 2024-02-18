@@ -14,22 +14,27 @@ function smoothScroll(e) {
 }
 
 function smoothScroll(e) {
+
 	e.preventDefault();
   
-	const id = this.getAttribute('href');
+	const id = this.getAttribute('href');  
 	const header = document.querySelector('header');
 	const offset = header.offsetHeight;
   
-	document.querySelector(id).scrollIntoView({
+	// Find H1 within section
+	const section = document.querySelector(id);
+	const h1 = section.querySelector('h1');  
+  
+	h1.scrollIntoView({
 	  behavior: 'smooth',
-	  block: 'start', 
+	  block: 'start',
 	  inline: 'nearest',
 	  offsetTop: -offset
 	});
+  
   }
   const el = document.querySelector(id);
   el.scrollTop = el.scrollHeight / 2;
-
 
 
 /* Will change */
