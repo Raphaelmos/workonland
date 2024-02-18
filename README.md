@@ -25,5 +25,5 @@ Good looking page but the images on projects doesnt fit for some but fit for doe
 
 4. Make the image fit in the project boxes
 
-5.  Make the header moving when scrolling down the page
+5.  Make the header moving when scrolling down the page ✅
 
