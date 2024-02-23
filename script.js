@@ -1,3 +1,4 @@
+/* First part of the code is to have a better effect when scrolling and no weird movements while the second part is a attempt to implement snowflakes appearing on screen*/
 const links = document.querySelectorAll('header a');
 
 links.forEach(link => {
